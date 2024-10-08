@@ -10,19 +10,16 @@ My script running as server for supporting telegram bot.
 When bot getting input it calculating result and pasting 
 5 fields into site and getting drawing from site.
 
-## Requirements
+## How to run:
 
-- Python 3.11
-- pyTelegramBotAPI
-- selenium
-- Google webdriver (version 114)
-- cairosvg
-- Docker (not ready yet)
+- ``pip install -r requirements.txt``
+
+- ``python -m app``
 
 ## Important Notes
 
 I want to add:
-- maintaining bot full time infinitely using server
+
 - dockerfile
 
 # Русский
@@ -33,17 +30,14 @@ I want to add:
 
 Мой скрипт работает как сервер для поддержки телеграм-бота. Когда бот получает входные данные, он вычисляет результат, вставляет 5 полей на сайт и получает чертеж с сайта.
 
-## Требования
+## Как запустить:
 
-- Python 3.11
-- pyTelegramBotAPI
-- selenium
-- Веб-драйвер Google (версия 114)
-- cairosvg
-- Docker (пока не готов)
+- ``pip install -r requirements.txt``
+
+- ``python -m app``
 
 ## Важные заметки
 
 Я хочу добавить:
-- Постоянное поддержание работы бота на сервере в течение всего времени
+
 - Файл Docker (еще не готов)
